@@ -22,7 +22,6 @@ img {vertical-align: middle;
     width: 10%;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 75%;
   position: relative;
@@ -38,7 +37,6 @@ img {vertical-align: middle;
     transition: 1s;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -55,19 +53,16 @@ img {vertical-align: middle;
   animation: search-change 4s infinite;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
   border-radius: 15px;
 }
 
-/* Caption text */
 .text {
   color: black;
   font-size: 18px;
@@ -82,7 +77,6 @@ img {vertical-align: middle;
   background: rgba(0, 0, 0, 0.116);
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
@@ -91,7 +85,6 @@ img {vertical-align: middle;
   top: 0;
 }
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -112,7 +105,6 @@ img {vertical-align: middle;
     border-bottom: 2px solid black;
 }
 
-/* Fading animation */
 .fade {
     animation-name: fade;
     animation-duration: 1.5s;
@@ -123,7 +115,6 @@ img {vertical-align: middle;
     to {opacity: 1}
   }
   
-  /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
